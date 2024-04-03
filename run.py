@@ -59,7 +59,7 @@ def start(word):
     if guessed:
         print("Huzzah, you are correct! You win! This soul has been spared")
     else:
-        print("Oops, you ran out of tries. The word was " + word + ". Maybe next time!")
+        print("You ran out of tries. The word was " + word + ". Maybe next time!")
 
 
 def display_hangman(tries):
