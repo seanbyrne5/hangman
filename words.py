@@ -55,7 +55,7 @@ word_list = [
     'seed',
     'born',
     'shampoo',
-    'italian
+    'italian',
     'snow',
     'whisper',
     'bundle',
