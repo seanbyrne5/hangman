@@ -106,9 +106,9 @@ def display_hangman(tries):
                    --------
                    |      |
                    |      O
-                   |     \||/
+                   |     \\|/
                    |      |
-                   |     / \
+                   |     / \\
                    -
                 """,
                 # head, torso, both arms, and one leg
@@ -116,7 +116,7 @@ def display_hangman(tries):
                    --------
                    |      |
                    |      O
-                   |     \||/
+                   |     \\|/
                    |      |
                    |     / 
                    -
@@ -126,7 +126,7 @@ def display_hangman(tries):
                    --------
                    |      |
                    |      O
-                   |     \||/
+                   |     \\|/
                    |      |
                    |      
                    -
@@ -136,7 +136,7 @@ def display_hangman(tries):
                    --------
                    |      |
                    |      O
-                   |     \||
+                   |     \\|
                    |      |
                    |     
                    -
@@ -148,7 +148,7 @@ def display_hangman(tries):
                    |      O
                    |      |
                    |      |
-                   |      
+                   |     
                    -
                 """,
                 # head
