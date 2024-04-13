@@ -8,7 +8,7 @@
 Give players a themed option of words to chose from, for example, a list of animals or cars, harry potter spells and characters and other such themes.
 
 ## Testing
-
+I have tested this project 
 ## Bugs
 I initially ran into errors with laucnhing my code in a terminal environment to check if it was running properly. Once I resolved this issue and ran my code things seemed to be working smoothly.
 ## Deployment 

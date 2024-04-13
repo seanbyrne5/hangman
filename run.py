@@ -1,17 +1,53 @@
 import random
-from words import word_list
+
+
+word_list = [
+    'wares',
+    'soup',
+    'mount',
+    'extend',
+    'brown',
+    'expert',
+    'tired',
+    'humidity',
+    'backpack',
+    'crust',
+    'dent',
+    'market',
+    'knock',
+    'smite',
+    'windy',
+    'coin',
+    'throw',
+    'silence',
+    'bluff',
+    'strict',
+    'mystic',
+    'film',
+    'guide',
+    'strain',
+    'bishop',
+    'settle',
+    'plateau',
+    'emigrate',
+    'marching',
+    'optimal',
+    'medley',
+    'endanger'
+]
 
 
 def get_word():
-    """This function chooses a word at random from the words.py file using the random 
-    module imported"""
+    """This function chooses a word at random from the words.py file using 
+    the random module imported"""
     word = random.choice(word_list)
     return word.upper()
 
 
 def start(word):
-    """ This functions starts the game and iterates through the responses using 
-    a while loop depending on the input the player enters
+    """ This functions starts the game and iterates through 
+    the responses using a while loop depending on the input 
+    the player enters
     """
     word_completion = "_" * len(word)
     guessed = False
@@ -59,11 +95,12 @@ def start(word):
     if guessed:
         print("Huzzah, you are correct! You win! This soul has been spared")
     else:
-        print("You ran out of tries. The word was " + word + ". Maybe next time!")
+        print("Out of tries. The word was " + word + ". Maybe next time!")
 
 
 def display_hangman(tries):
-    """ This function contains the stages and the depictions of the hanged mans noose"""
+    """ This function contains the stages and the depictions of the 
+    hanged mans noose"""
     stages = [  # final state: head, torso, both arms, and both legs
                 """
                    --------
